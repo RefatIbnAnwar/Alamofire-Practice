@@ -13,6 +13,9 @@
 		F5077C8C2067BF9B0006D01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5077C8A2067BF9B0006D01E /* Main.storyboard */; };
 		F5077C8E2067BF9B0006D01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5077C8D2067BF9B0006D01E /* Assets.xcassets */; };
 		F5077C912067BF9B0006D01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5077C8F2067BF9B0006D01E /* LaunchScreen.storyboard */; };
+		F55CAB37206A16930054896C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CAB36206A16930054896C /* ModelData.swift */; };
+		F55CAB39206A2EE90054896C /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CAB38206A2EE90054896C /* APICall.swift */; };
+		F55CAB3B206A4B390054896C /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CAB3A206A4B390054896C /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F5077C8D2067BF9B0006D01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5077C902067BF9B0006D01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5077C922067BF9B0006D01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55CAB36206A16930054896C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F55CAB38206A2EE90054896C /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		F55CAB3A206A4B390054896C /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				F5077C8D2067BF9B0006D01E /* Assets.xcassets */,
 				F5077C8F2067BF9B0006D01E /* LaunchScreen.storyboard */,
 				F5077C922067BF9B0006D01E /* Info.plist */,
+				F55CAB36206A16930054896C /* ModelData.swift */,
+				F55CAB38206A2EE90054896C /* APICall.swift */,
+				F55CAB3A206A4B390054896C /* CustomCollectionViewCell.swift */,
 			);
 			path = "Alamofire-Practice";
 			sourceTree = "<group>";
@@ -218,6 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5077C892067BF9B0006D01E /* ViewController.swift in Sources */,
+				F55CAB3B206A4B390054896C /* CustomCollectionViewCell.swift in Sources */,
+				F55CAB37206A16930054896C /* ModelData.swift in Sources */,
+				F55CAB39206A2EE90054896C /* APICall.swift in Sources */,
 				F5077C872067BF9B0006D01E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
