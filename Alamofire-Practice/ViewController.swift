@@ -14,6 +14,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     
     var actors = [Actor]()
+    var actor : Actor?
     
     @IBOutlet weak var actorCollectionView: UICollectionView!
     
@@ -51,6 +52,21 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         cell.imageView.image = UIImage(data: data)
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.actor = actors[indexPath.row]
+        performSegue(withIdentifier: "segueId", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueId" {
+            guard let destinationVC = segue.destination as? ActorViewController else {
+                print("segue failed")
+                return
+            }
+            destinationVC.actorInformation = self.actor
+        }
     }
     
     

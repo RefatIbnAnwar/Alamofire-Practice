@@ -34,11 +34,11 @@ class APICall {
         Alamofire.request(url).responseJSON { response in
             
             print("result : \(response.result)")
-            
-            if let json  = response.result.value {
-                print(json)
-                
-            }
+//
+//            if let json  = response.result.value {
+//                //print(json)
+//
+//            }
             
             if let data = response.data {
                 do {
@@ -52,6 +52,6 @@ class APICall {
         }
     }
     
-
+    
     
 }
